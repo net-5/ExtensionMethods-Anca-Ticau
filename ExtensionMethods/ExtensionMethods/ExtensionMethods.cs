@@ -29,16 +29,14 @@ namespace ExtensionMethods
             return inputString + "s";
         }
 
-        public static void CheckIfFirstLetterIsCapital(this string inputString)
+        public static bool CheckIfFirstLetterIsCapital(this string inputString)
         {
             if (inputString[0] == char.ToUpper(inputString[0]))
             {
-                Console.WriteLine("The string starts with capital letter");
+                return true;
             }
-            else
-            {
-                Console.WriteLine("The string does not start with capital letter");
-            }
+           
+                return false;
         }
 
         public static int CountChar(this string inputString)
