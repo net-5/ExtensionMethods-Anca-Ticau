@@ -35,7 +35,7 @@ namespace ExtensionMethods
             //Write an extension method to check if a string starts with a capital letter or not.
 
             givenString = "This is a string";
-            givenString.CheckIfFirstLetterIsCapital();
+            Console.WriteLine(givenString.CheckIfFirstLetterIsCapital());
 
             //Character count
             //Write an extension method what will count the number of characters in a string.
